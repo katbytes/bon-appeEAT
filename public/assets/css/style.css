@@ -1,0 +1,268 @@
+/* THE UCSD FOODIE ALL STARS 2018 */
+
+/* bon appéEAT - (Frank, Star, Iris, Ahmed, Kat) */
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+
+/* Add border to recipe images */
+
+.recipe-image {
+    border: 3px solid #ffffff;
+}
+
+.bg {
+    background-image: url("../imgs/foodbg-50-darker.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #000000; */
+}
+
+/* Font for headers */
+
+.start-screen-font {
+    color: red;
+    /* font-family: 'Titan One', cursive;
+    font-family: 'Aladin', cursive;
+    font-family: 'Fredericka the Great', cursive; */
+    font-family: 'Arima Madurai', cursive;
+}
+
+.start-screen-font:hover {
+    color: green;
+}
+
+i.small {
+    font-size: 2rem;
+    color: red;
+}
+
+/* Styling for start screen */
+
+#start-screen {
+    background-color: white;
+    opacity: 0.92;
+    height: 400px;
+    margin-left: none;
+    margin-right: none;
+    padding: 20px 15px 0 15px;
+    box-shadow: 6px 6px #E8BD53;
+}
+
+#header {
+    color: green !important;
+    text-shadow: .5px .5px rgb(36, 36, 36);
+    font-family: 'Fredericka the Great', cursive;
+    padding-bottom: 20px;
+    /* font-family: 'Titan One', cursive; */
+    /* font-family: 'Aladin', cursive; */
+    /* font-family: 'Arima Madurai', cursive; */
+}
+
+#search-food {
+    color: green !important;
+    text-shadow: .5px .5px rgb(36, 36, 36);
+    font-family: 'Fredericka the Great', cursive;
+    padding-bottom: 30px;
+}
+#ucsd,
+#about-link,
+#help-link {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 2rem;
+}
+
+#member-info {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 1.5rem;
+}
+
+/* Styling for login textbox on start screen */
+
+#open-login-btn {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Login form validation styling */
+
+#error {
+    color: red;
+    font-weight: bold;
+}
+
+#logout-btn {
+    margin-top: 12px;
+}
+
+/* Pencil and trash icons styling */
+
+.fa-pencil {
+    margin-left: 10px;
+}
+
+.fa-trash {
+    margin-left: 10px;
+}
+
+/* Recipe box styling */
+
+#recipeBox li {
+    padding-top: 15px;
+}
+
+/* Logo in side menu */
+
+#logo {
+    padding-left: 100px;
+}
+
+/* Sticky Footer */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 50px;
+}
+
+/* Authentication/sign in button */
+
+#authentication-btn {
+    margin-top: 10px;
+    background-color: #E8BD53;
+}
+
+/* Recipe box button styling */
+
+#recipe-box-btn {
+    margin-top: 15px;
+}
+
+/* Making all the buttons the same color for consistency */
+
+#submit,
+#logout-btn,
+#login-btn,
+#signup-btn,
+#open-login-btn,
+#login-confirm-btn,
+#logout-confirm-btn,
+.noteSave,
+.notesSave,
+#load-more {
+    background-color: #E8BD53;
+}
+
+/* Add margin to save button in notes modal */
+
+.noteSave {
+    margin-right: 10px;
+}
+
+/* Icon in top navigation bar that opens recipe box */
+
+.fa-birthday-cake: {}
+
+.fa-birthday-cake:hover {
+    color: palevioletred;
+}
+
+nav,
+.wrapper,
+    {
+    margin-bottom: 10px;
+}
+
+nav,
+.page-footer {
+    background-color: #000000;
+    opacity: 0.7;
+}
+
+#login-confirm-btn,
+#logout-confirm-btn,
+#logout-btn,
+#login-btn,
+#logout-btn,
+#signup-btn,
+#load-more,
+#submit {
+    background-color: green;
+}
+
+.row .col.l4 {
+    width: 235px;
+    margin-left: 10px;
+    left: auto;
+    right: auto;
+    /* background-color: aliceblue; */
+}
+.card .card-content {
+    padding: 24px;
+    border-radius: 0 0 2px 2px;
+    /* background-color: #e2e1dd; */
+}
+
+.card .card-action {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    padding: 16px 24px;
+    /* background-color: #e2e1dd; */
+}
+/* Materilialize */
+  /* label color */
+  .input-field label {
+    color: #000;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #000;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid red;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active, .prefix.hover {
+    color: #000;
+  }
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+    .row .col.l4 {
+        width: 275px;
+        margin-left: 10px;
+        left: auto;
+        right: auto;
+    }
+}
