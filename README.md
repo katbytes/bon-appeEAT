@@ -1,4 +1,4 @@
-UCSD: Project One
+UCSD: Project One <br>
 Date: 12/03/18
 Group Name: Food AllStars, LLC
 Group App Name: bon appéEAT
